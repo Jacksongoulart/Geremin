@@ -1,0 +1,20 @@
+{
+    "name": "root/geremin",
+    "authors": [
+        {
+            "name": "Jackson",
+            "email": "jackson_goulart_@hotmail.com"
+        }
+    ],
+    "require": {
+	   "peej/tonic":"dev-master",
+       "slim/slim": "2.*"
+    },
+    
+    "autoload": {
+        "psr-0": {
+            "Geremin": "src/"
+         }
+    },
+    "minimum-stability": "dev"
+}
